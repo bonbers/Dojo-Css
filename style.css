@@ -1,7 +1,7 @@
 /***************************
         Dojo Css
 ***************************/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   body {
     background-color: green;
   }
@@ -140,7 +140,7 @@ span {
         justify-content:center;
     }
 	}
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 400px) {
 
 body {
   background-color: orange;

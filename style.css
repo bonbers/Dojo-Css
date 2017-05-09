@@ -1,6 +1,15 @@
 /***************************
         Dojo Css
 ***************************/
+@media screen and (min-width: 360px) {
+
+  input.toggle, label.toggle { display: none; }
+	label.toggle {
+	  font-weight: 900;
+	  font-size: 1.2em;
+	  padding: 10px 20px;
+
+	}
 
 main{
     font-family: sans-serif;
@@ -31,12 +40,13 @@ ul {
   font-weight: bold;
 }
 .two {
-padding : 40px;
+padding : 40%;
 
 }
 
 li {
   height: 18px;
+  width : 180px;
 }
 
 .one {
@@ -52,6 +62,12 @@ li {
   margin: auto;
 }
 .because {
+  background : #486c8c;
+  padding-left : 30px;
+  padding-right: 31px;
+  margin: auto;
+}
+.testi {
   background : #486c8c;
   padding-left : 30px;
   padding-right: 31px;
@@ -78,8 +94,8 @@ li {
   color: white;
 }
 #menu li ul a:hover {
-  color : black;
-  background: #486c8c;
+  color : white;
+  background: #5961D7;
 }
 
 li {
@@ -90,6 +106,7 @@ li:first-child {
     color: #486c8c;
 }
 /*MENU CSS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 
 .title{
     text-align: center;
@@ -147,3 +164,142 @@ color: white;
     text-align:center;
     justify-content:center;
 }
+}
+
+@media (max-width: 360px) {
+	  nav { display: none; }
+	  input.toggle {
+      display: none;
+    }
+span {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+	  input[type=checkbox]:checked ~ nav,  label.toggle {
+
+	    display: block;
+	    cursor: pointer;
+	  }
+	  nav li {
+      float: none;
+    }
+	  nav li:hover ul {
+	    display: block;
+	    position: relative;
+	  }
+	  nav li ul {
+      display: block;
+    }
+	  nav li ul li { margin-left: 20px; }
+
+	  nav li a {
+	    display: block;
+	    margin-left: 20px;
+	  }
+    #menu a {
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+    }
+    li {
+      text-align: center;
+      list-style: none;
+      border: solid 1px black;
+    }
+    #menu li ul a:hover {
+      color : black;
+      background: #00AE96;
+      font-weight: bold;
+    }
+    #menu li ul {
+      display : none;
+
+    }
+    #menu li:hover ul {
+      display : block;
+    }
+    #menu li ul a{
+      color: black;
+      background: #0063AE;
+    }
+    #menu {
+      background: #486c8c;
+      padding : 0px;
+      width: 100%;
+      font-family: sans-serif;
+      margin: 0px;
+    }
+    #menu li {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    }
+    #menu li .second {
+    padding: 0px;
+    }
+    .second li{
+      margin: 0px;
+      padding: 0px;
+    }
+   a.one, a.two, a.because, a.testi, a.client {
+     margin: 0px;
+   }
+
+
+    .title{
+        text-align: center;
+        background-image: url("./img/bg.jpg");
+        height : 400px;
+        background-position: center center;
+        margin : 40px;
+
+    }
+
+    .second_text{
+        flex : 5;
+        text-align: center;
+    }
+    .last_section {margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .blue {
+        color: #486c8c;
+    }
+
+    .grey {
+        color: #bbbbae;
+    }
+
+    button {
+        margin: auto;
+        border-radius: 3px;
+        border: none;
+        color: white;
+        background-color: #486c8c;
+        padding: 1%;
+    }
+
+
+    .ok{
+    margin-top: 30px;
+    color: white;
+
+    }
+
+    .logo {
+        margin:auto;
+
+    }
+
+    .last_section article{
+        display:flex;
+        flex-direction:column;
+        align-content:center;
+        text-align:center;
+        justify-content:center;
+    }
+	}

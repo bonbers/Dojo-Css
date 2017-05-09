@@ -1,7 +1,7 @@
 /***************************
         Dojo Css
 ***************************/
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 960px) {
 
   input.toggle, label.toggle { display: none; }
 	label.toggle {
@@ -166,7 +166,7 @@ color: white;
 }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 960px) {
 	  nav { display: none; }
 	  input.toggle {
       display: none;

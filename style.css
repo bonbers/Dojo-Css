@@ -14,8 +14,72 @@ header{
     display: flex;
     justify-content: space-between;
 }
+/* CSS MENU !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+li a:first-child:nth-last-child(2):after {
+   content:"↓";
+   }
 ul {
     display: flex;
+}
+#menu a {
+  color : #486c8c;
+  text-decoration: none;
+
+}
+#menu a:hover {
+  color: #486c8c;
+  font-weight: bold;
+}
+.two {
+padding : 40px;
+
+}
+
+li {
+  height: 18px;
+}
+
+.one {
+  background : #486c8c;
+  padding-left : 25px;
+  padding-right: 25px;
+  margin: auto;
+}
+.client {
+  background : #486c8c;
+  padding-left : 38px;
+  padding-right: 39px;
+  margin: auto;
+}
+.because {
+  background : #486c8c;
+  padding-left : 30px;
+  padding-right: 31px;
+  margin: auto;
+}
+
+#menu {
+  padding : 0;
+  font-weight: bold;
+}
+#menu li {
+  padding : 0px;
+  text-align: center;
+}
+
+#menu li ul {
+  display : none;
+  padding : 0px;
+}
+#menu li:hover ul {
+  display : block;
+}
+#menu li ul a{
+  color: white;
+}
+#menu li ul a:hover {
+  color : black;
+  background: #486c8c;
 }
 
 li {
@@ -25,11 +89,14 @@ li {
 li:first-child {
     color: #486c8c;
 }
+/*MENU CSS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .title{
     text-align: center;
     background-image: url("./img/bg.jpg");
     height : 400px;
     background-position: center center;
+    margin : 40px;
 
 }
 

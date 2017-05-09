@@ -40,7 +40,7 @@ ul {
   font-weight: bold;
 }
 .two {
-padding : 40%;
+padding : 10%;
 
 }
 
@@ -254,6 +254,7 @@ span {
         margin : 40px;
 
     }
+
 
     .second_text{
         flex : 5;

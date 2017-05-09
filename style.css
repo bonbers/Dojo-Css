@@ -1,8 +1,11 @@
 /***************************
         Dojo Css
 ***************************/
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
 
+body {
+  background-color: orange;
+}
   input.toggle, label.toggle { display: none; }
 	label.toggle {
 	  font-weight: 900;
@@ -166,7 +169,10 @@ color: white;
 }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
+  body {
+    background-color: green;
+  }
 	  nav { display: none; }
 	  input.toggle {
       display: none;
